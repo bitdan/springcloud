@@ -1,9 +1,9 @@
-package com.example.mybatis_plus.service.impl;
+package com.example.mybatis_plus.product.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.example.mybatis_plus.entity.Product;
-import com.example.mybatis_plus.mapper.ProductMapper;
-import com.example.mybatis_plus.service.ProductService;
+import com.example.mybatis_plus.product.entity.Product;
+import com.example.mybatis_plus.product.mapper.ProductMapper;
+import com.example.mybatis_plus.product.service.ProductService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -1,11 +1,11 @@
-package com.example.mybatis_plus.controller;
+package com.example.mybatis_plus.product.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.mybatis_plus.common.Result;
-import com.example.mybatis_plus.entity.CompanyInfo;
-import com.example.mybatis_plus.entity.TreeNode;
-import com.example.mybatis_plus.service.CompanyInfoService;
+import com.example.mybatis_plus.product.entity.CompanyInfo;
+import com.example.mybatis_plus.product.entity.TreeNode;
+import com.example.mybatis_plus.product.service.CompanyInfoService;
 import com.example.mybatis_plus.utils.ParamUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -1,10 +1,10 @@
-package com.example.mybatis_plus.service.impl;
+package com.example.mybatis_plus.product.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.mybatis_plus.entity.CompanyInfo;
-import com.example.mybatis_plus.mapper.CompanyInfoMapper;
-import com.example.mybatis_plus.service.CompanyInfoService;
+import com.example.mybatis_plus.product.entity.CompanyInfo;
+import com.example.mybatis_plus.product.mapper.CompanyInfoMapper;
+import com.example.mybatis_plus.product.service.CompanyInfoService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

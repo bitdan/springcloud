@@ -1,7 +1,7 @@
-package com.example.mybatis_plus.service;
+package com.example.mybatis_plus.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.mybatis_plus.entity.CompanyInfo;
+import com.example.mybatis_plus.product.entity.CompanyInfo;
 
 import java.util.List;
 

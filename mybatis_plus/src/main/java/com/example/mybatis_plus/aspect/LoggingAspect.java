@@ -23,20 +23,20 @@ public class LoggingAspect {
         //签名，可以理解成这个切入点的一个名称
     }
 
-    @Before("execution(* com.example.mybatis_plus.service.impl.ProductServiceImpl.*(..))")
+    @Before("execution(* com.example.mybatis_plus.product.service.impl.ProductServiceImpl.*(..))")
 //    @Before("myPointCut()")
     public void logBefore(JoinPoint joinPoint) {
         logger.info("Before executing method: {}", joinPoint.getSignature().getName());
         logger.info("Before executing args: {}", joinPoint.getArgs());
     }
 
-    @After("execution(* com.example.mybatis_plus.service.impl.ProductServiceImpl.*(..))")
+    @After("execution(* com.example.mybatis_plus.product.service.impl.ProductServiceImpl.*(..))")
 //    @After("myPointCut()")
     public void logAfter(JoinPoint joinPoint) {
         logger.info("After executing method: {}", joinPoint.getSignature().getName());
     }
 
-    @Around("execution(* com.example.mybatis_plus.service.impl..*.*(..))")
+    @Around("execution(* com.example.mybatis_plus.product.service.impl..*.*(..))")
     public Object recordTimeLog(ProceedingJoinPoint joinPoint) throws Throwable {
 
         logger.info("====== 开始执行 {}.{} ======",
