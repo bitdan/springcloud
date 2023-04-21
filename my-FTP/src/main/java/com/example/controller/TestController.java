@@ -55,11 +55,11 @@ public class TestController {
     @GetMapping("/upload")
     public String upload() {
         try {
-            String remotePath = "/test01/application.yml";
+            String remotePath = "/test01/av_vio_288.jpg";
             ftpUtil.createDirectory(remotePath);
-            String localPath = "C:/Users/26825/Desktop/application.yml";
+            String localPath = "F:/files/event-push/20230417/uav_vio_288.jpg";
             FTPUtil.UploadStatus uploadStatus = ftpUtil.upload(localPath,remotePath);
-            log.info(String.valueOf(uploadStatus));
+//            log.info(String.valueOf(uploadStatus));
         } catch (Exception e) {
             e.printStackTrace();
         }
