@@ -1,8 +1,8 @@
 package com.example.service.impl;
 
 
-import com.example.conf.ChannelSftpFactory;
-import com.example.conf.SFTPPoolConfig;
+import com.example.conf.factory.ChannelSftpFactory;
+import com.example.conf.ftp.SFTPPoolConfig;
 import com.example.service.SFTPPoolService;
 import com.jcraft.jsch.ChannelSftp;
 import lombok.extern.slf4j.Slf4j;

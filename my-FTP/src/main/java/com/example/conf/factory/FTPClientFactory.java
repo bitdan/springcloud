@@ -1,6 +1,7 @@
-package com.example.conf;
+package com.example.conf.factory;
 
 
+import com.example.conf.ftp.FTPPoolConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.net.ftp.FTP;

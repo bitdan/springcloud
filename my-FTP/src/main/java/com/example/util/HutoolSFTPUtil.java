@@ -3,7 +3,7 @@ package com.example.util;
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.extra.ssh.JschUtil;
 import cn.hutool.extra.ssh.Sftp;
-import com.example.conf.SFTPPoolConfig;
+import com.example.conf.ftp.SFTPPoolConfig;
 import com.jcraft.jsch.Session;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

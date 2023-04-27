@@ -1,8 +1,8 @@
 package com.example.service.impl;
 
 
-import com.example.conf.FTPClientFactory;
-import com.example.conf.FTPPoolConfig;
+import com.example.conf.factory.FTPClientFactory;
+import com.example.conf.ftp.FTPPoolConfig;
 import com.example.service.FTPPoolService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.net.ftp.FTPClient;

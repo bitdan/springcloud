@@ -1,8 +1,9 @@
-package com.example.conf;
+package com.example.conf.factory;
 
 
 
 
+import com.example.conf.ftp.SFTPPoolConfig;
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;

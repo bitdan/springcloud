@@ -1,7 +1,7 @@
 package com.example.service;
 
 
-import com.example.conf.SFTPPoolConfig;
+import com.example.conf.ftp.SFTPPoolConfig;
 import com.jcraft.jsch.ChannelSftp;
 
 /**

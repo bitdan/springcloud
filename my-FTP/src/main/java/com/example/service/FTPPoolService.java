@@ -1,7 +1,7 @@
 package com.example.service;
 
 
-import com.example.conf.FTPPoolConfig;
+import com.example.conf.ftp.FTPPoolConfig;
 import org.apache.commons.net.ftp.FTPClient;
 
 /**
