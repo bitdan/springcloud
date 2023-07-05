@@ -12,7 +12,7 @@ name: Java CI with Maven
 on:
   push:
     paths:
-      - '**/*src/**/*.java'
+      - '**/*src/**/*.*'
 
 jobs:
   build:
