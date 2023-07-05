@@ -29,12 +29,6 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-# 配置 settings.xml 一般用于 Mavne 私库验证等
-    - name: maven-settings-xml-action
-      uses: whelk-io/maven-settings-xml-action@v20
-      with:
-        repositories: ''
-        servers: ''
 # Maven 打包 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
