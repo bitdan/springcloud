@@ -2,7 +2,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://localhost:3307/springboot_mybatis?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/local?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
     #&allowPublicKeyRetrieval=true这一部分设置是mysql8里面的, 不设置验证会报错
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
@@ -13,11 +13,9 @@ spring:
         login-password: admin
       web-stat-filter:
         enabled: true
+    initialization-mode: always
+    schema: classpath:sql/*.sql
 
-#  sql:
-#    init:
-#      schema-locations: classpath:sql/schema.sql
-#      mode: always
 server:
   port: 8089
 

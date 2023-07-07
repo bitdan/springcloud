@@ -24,6 +24,11 @@
         <!--        </dependency>-->
         <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-core -->
         <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+        <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-core</artifactId>
             <version>5.8.17</version>
@@ -49,6 +54,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.73</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
